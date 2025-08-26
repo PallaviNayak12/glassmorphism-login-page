@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glassmorphism Login Page</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #6d5dfc, #46c5f1);
+    }
+
+    .container {
+      width: 350px;
+      padding: 40px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(15px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      color: #fff;
+      text-align: center;
+    }
+
+    .container h2 {
+      margin-bottom: 25px;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+
+    .input-box {
+      margin: 15px 0;
+      position: relative;
+    }
+
+    .input-box input {
+      width: 100%;
+      padding: 12px 15px;
+      border: none;
+      outline: none;
+      border-radius: 30px;
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      font-size: 15px;
+    }
+
+    .input-box input::placeholder {
+      color: #eee;
+    }
+
+    .btn {
+      width: 100%;
+      margin-top: 20px;
+      padding: 12px;
+      border: none;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      background: linear-gradient(135deg, #0072ff, #00c6ff);
+    }
+
+    .links {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .links a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: 0.3s;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form>
+      <div class="input-box">
+        <input type="text" placeholder="Username" required>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Password" required>
+      </div>
+      <button class="btn" type="submit">Login</button>
+    </form>
+    <div class="links">
+      <a href="#">Forgot Password?</a> | 
+      <a href="#">Sign Up</a>
+    </div>
+  </div>
+</body>
+</html>
