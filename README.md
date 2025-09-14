@@ -6,7 +6,7 @@ This project showcases the use of **glassmorphism UI design**, gradients, and ho
 ---
 
 ## 🚀 Features
-- ✨ Glassmorphism effect with `backdrop-filter`
+- ✨ Glassmorphism effect with backdrop-filter
 - 🎨 Gradient background design
 - 🖱️ Smooth hover animation on buttons
 - 📱 Fully responsive layout
